@@ -1,0 +1,26 @@
+enum Language {
+  TURKISH,
+  ENGLISH
+}
+
+enum AnnouncementType {
+  TEXT,
+  IMAGE,
+  WARNING,
+  WARNING_WITH_BUTTON,
+  IMAGE_WITH_TEXT,
+  BUTTON_WITH_TEXT
+}
+
+entity Announcement {
+  id Long
+  language Language
+  startDate Instant
+  endDate Instant
+  announcementType AnnouncementType
+  announcementData TextBlob
+}
+
+filter *
+service * with serviceImpl
+paginate * with pagination

@@ -1,0 +1,11 @@
+id;language;start_date;end_date;announcement_type;announcement_data
+1;TURKISH;2024-04-10T08:26:22;2024-04-09T15:02:17;IMAGE;../fake-data/blob/hipster.txt
+2;TURKISH;2024-04-10T02:37:10;2024-04-09T19:47:42;BUTTON_WITH_TEXT;../fake-data/blob/hipster.txt
+3;ENGLISH;2024-04-09T22:41:06;2024-04-10T12:21:07;TEXT;../fake-data/blob/hipster.txt
+4;TURKISH;2024-04-10T07:08:03;2024-04-09T17:54:41;BUTTON_WITH_TEXT;../fake-data/blob/hipster.txt
+5;ENGLISH;2024-04-10T06:51:13;2024-04-09T23:50:05;IMAGE_WITH_TEXT;../fake-data/blob/hipster.txt
+6;TURKISH;2024-04-10T05:03:26;2024-04-10T07:59:07;BUTTON_WITH_TEXT;../fake-data/blob/hipster.txt
+7;ENGLISH;2024-04-09T18:13:50;2024-04-09T16:13:56;WARNING_WITH_BUTTON;../fake-data/blob/hipster.txt
+8;ENGLISH;2024-04-10T04:19:25;2024-04-10T08:59:29;WARNING;../fake-data/blob/hipster.txt
+9;TURKISH;2024-04-09T17:38:26;2024-04-10T10:09:01;TEXT;../fake-data/blob/hipster.txt
+10;TURKISH;2024-04-10T06:15:56;2024-04-10T09:47:32;WARNING;../fake-data/blob/hipster.txt

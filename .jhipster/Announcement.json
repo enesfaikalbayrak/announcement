@@ -1,0 +1,44 @@
+{
+  "annotations": {
+    "changelogDate": "20240410142907"
+  },
+  "applications": "*",
+  "clientRootFolder": "bauluAnnouncement",
+  "databaseType": "sql",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "language",
+      "fieldType": "Language",
+      "fieldValues": "TURKISH,ENGLISH"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "announcementType",
+      "fieldType": "AnnouncementType",
+      "fieldValues": "TEXT,IMAGE,WARNING,WARNING_WITH_BUTTON,IMAGE_WITH_TEXT,BUTTON_WITH_TEXT"
+    },
+    {
+      "fieldName": "announcementData",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "microserviceName": "bauluAnnouncement",
+  "name": "Announcement",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
