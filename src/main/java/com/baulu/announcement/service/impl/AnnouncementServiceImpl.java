@@ -111,7 +111,8 @@ public class AnnouncementServiceImpl implements AnnouncementService {
         if (!optionalOldAnnouncement.isPresent()) {
             throw new NotFoundException("There isn't any announcement with id: " + announcementRequestDTO.getAnnouncementId());
         }
-        Announcement updatedAnnouncement = optionalOldAnnouncement.get();
+
+        Announcement updatedAnnouncement = optionalOldAnnouncement.orElseThrow(() -> new IllegalArgumentException("Id can not be null"));
 
         updatedAnnouncement.announcementData(announcementRequestDTO.getAnnouncementData())
             .announcementType(announcementRequestDTO.getAnnouncementType())
