@@ -10,4 +10,5 @@ public enum AnnouncementType {
     WARNING_WITH_BUTTON,
     IMAGE_WITH_TEXT,
     BUTTON_WITH_TEXT,
+    IMAGE_WITH_TEXT_WITH_LINK
 }
