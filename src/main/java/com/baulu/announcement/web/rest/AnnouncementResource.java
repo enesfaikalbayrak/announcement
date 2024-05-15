@@ -243,6 +243,6 @@ public class AnnouncementResource {
                                                                                 @RequestParam(value = "selectedLanguage")Language selectedLanguage) {
         log.debug("Rest request to get announcement by date: {} and language: {}", date, selectedLanguage);
         List<Announcement> announcements = this.announcementService.getAnnouncementsByDateAndLanguage(date, selectedLanguage);
-        return ResponseUtil.wrapOrNotFound(Optional.of(announcements));
+        return ResponseEntity.ok().body(announcements);
     }
 }

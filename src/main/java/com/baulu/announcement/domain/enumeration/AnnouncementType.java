@@ -7,7 +7,7 @@ public enum AnnouncementType {
     TEXT,
     IMAGE,
     WARNING,
-    WARNING_WITH_BUTTON,
+    WARNING_WITH_LINK,
     IMAGE_WITH_TEXT,
     BUTTON_WITH_TEXT,
     IMAGE_WITH_TEXT_WITH_LINK
